@@ -3,10 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Frontend Internship Project</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Static Layout Practice</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <script src="script.js"></script>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">SATIC</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Page Heading Placeholder</h1>
+      <p>
+        This is placeholder text used only to represent layout and spacing.
+      </p>
+      <button class="primary-btn">Action Button</button>
+    </div>
+  </section>
+
+  <!-- FEATURES SECTION -->
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">Section Title</h2>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Card Title</h3>
+          <p>Short placeholder description.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Card Title</h3>
+          <p>Short placeholder description.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Card Title</h3>
+          <p>Short placeholder description.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT SECTION -->
+  <section class="content">
+    <div class="container content-grid">
+      <div class="content-box">
+        <h3>Content Block</h3>
+        <p>
+          Placeholder text for layout testing. This block represents text-heavy
+          content sections.
+        </p>
+      </div>
+      <div class="content-box">
+        <h3>Content Block</h3>
+        <p>
+          Placeholder text for layout testing. This block represents text-heavy
+          content sections.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="cta">
+    <div class="container">
+      <h2>Call To Action</h2>
+      <p>Short placeholder message.</p>
+      <button class="secondary-btn">Get Started</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>© 2026 OM GOHIL</div>
+      <div>Privacy | Terms</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
