@@ -3,94 +3,77 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Static Layout Practice</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Static Website Layout</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="container nav">
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container header-wrapper">
       <div class="logo">SATIC</div>
-      <nav>
+
+      <nav class="navigation">
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Features</a></li>
+          <li><a href="#">Services</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="container hero-content">
-      <h1>Page Heading Placeholder</h1>
-      <p>
-        This is placeholder text used only to represent layout and spacing.
-      </p>
-      <button class="primary-btn">Action Button</button>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero-section">
+    <div class="container hero-wrapper">
+      <div class="hero-text">
+        <h1>Hero Section Title</h1>
+        <p>
+          This is placeholder content for the hero section.  
+          It represents heading, description, and action layout only.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn primary">Primary Action</button>
+          <button class="btn outline">Secondary Action</button>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="placeholder-box">Image / Graphic</div>
+      </div>
     </div>
   </section>
 
-  <!-- FEATURES SECTION -->
+  <!-- ===== MAIN CONTENT ===== -->
   <section class="features">
     <div class="container">
-      <h2 class="section-title">Section Title</h2>
+      <h2 class="section-title">Feature Section</h2>
 
       <div class="feature-grid">
         <div class="feature-card">
-          <h3>Card Title</h3>
+          <h3>Feature</h3>
           <p>Short placeholder description.</p>
         </div>
         <div class="feature-card">
-          <h3>Card Title</h3>
+          <h3>Feature</h3>
           <p>Short placeholder description.</p>
         </div>
         <div class="feature-card">
-          <h3>Card Title</h3>
+          <h3>Feature</h3>
           <p>Short placeholder description.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTENT SECTION -->
-  <section class="content">
-    <div class="container content-grid">
-      <div class="content-box">
-        <h3>Content Block</h3>
-        <p>
-          Placeholder text for layout testing. This block represents text-heavy
-          content sections.
-        </p>
-      </div>
-      <div class="content-box">
-        <h3>Content Block</h3>
-        <p>
-          Placeholder text for layout testing. This block represents text-heavy
-          content sections.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- CALL TO ACTION -->
-  <section class="cta">
-    <div class="container">
-      <h2>Call To Action</h2>
-      <p>Short placeholder message.</p>
-      <button class="secondary-btn">Get Started</button>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="container footer-grid">
-      <div>© 2026 OM GOHIL</div>
-      <div>Privacy | Terms</div>
+    <div class="container footer-wrapper">
+      <p>© 2026 OM GOHIL</p>
+      <p>Privacy | Terms</p>
     </div>
   </footer>
 
